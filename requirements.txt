@@ -1,9 +1,4 @@
 streamlit
 streamlit_option_menu
 PyPDF2
-langchain.text_splitter
-langchain.embeddings
-langchain.vectorstores
-langchain.memory
-langchain.chains
-langchain.chat_models
+langchain
