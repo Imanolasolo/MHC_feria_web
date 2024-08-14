@@ -1,0 +1,13 @@
+streamlit
+streamlit_option_menu
+base64
+smtplib
+email.mime.text
+email.mime.multipart
+PyPDF2
+langchain.text_splitter
+langchain.embeddings
+langchain.vectorstores
+langchain.memory
+langchain.chains
+langchain.chat_models
