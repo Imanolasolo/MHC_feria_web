@@ -112,16 +112,16 @@ if selected == "Inicio":
 
 elif selected == "¿Quienes somos?":
         st.title("Misión y Visión", help=('MHC, compromiso y profesionalidad'))
-        st.info("Dedicados a la excelencia en salud desde [año de fundación], en el Manta Hospital Center estamos comprometidos con el bienestar de nuestra comunidad.")
+        st.info("Dedicados a la excelencia en salud desde 2019, en el Manta Hospital Center estamos comprometidos con el bienestar de nuestra comunidad.")
         col1, col2, col3 = st.columns (3)
         with col1:
-             st.info('Misión: Ofrecer atención médica integral y de calidad.')
+             st.info('**Misión**: Ofrecer atención médica integral y de calidad.')
              st.image('calidad_hospital.jpg', width=300, use_column_width='auto')
         with col2:
-             st.info('Visión: Ser líderes en el cuidado de la salud en nuestra región.')
+             st.info('**Visión**: Ser líderes en el cuidado de la salud en nuestra región.')
              st.image('pasion_salud.jpg', use_column_width='auto')
         with col3:
-             st.info('Valores: Compromiso, integridad, y empatía con nuestros pacientes.')
+             st.info('**Valores**: Compromiso, integridad, y empatía con nuestros pacientes.')
              st.image('compromiso_salud.jpg',use_column_width='auto')
 elif selected == "¿Qué hacemos?":
     st.title("Servicios MHC")
@@ -132,18 +132,18 @@ elif selected == "¿Qué hacemos?":
         st.subheader("Nuestros Servicios")
         servicios = [
             "Emergencias 24/7",
-            "Consultas Externas",
             "Hospitalización",
             "Unidad de Cuidados Intensivos (UCI)",
             "Quirófanos",
             "Laboratorio Clínico",
+            "Fisioterapia y Rehabilitación",
             "Imagenología",
+            "Consultas Externas",
             "Cardiología",
             "Pediatría",
             "Ginecología y Obstetricia",
             "Traumatología",
             "Cirugía General",
-            "Fisioterapia y Rehabilitación",
             "Dermatología",
             "Endocrinología",
             "Gastroenterología",
@@ -191,7 +191,7 @@ elif selected == "¿Qué hacemos?":
 
 elif selected == "Interactúa con nosotros":
     st.title("Comunícate con nosotros")
-    st.success('Queremos conocerte, que formes parte de la familia MHC, anímate y contacta o interactúa con nosotros en nuestras redes o nuestra novedosa asistente virtual Macy!')
+    st.success('Queremos conocerte, que formes parte de la familia MHC, anímate y contacta o interactúa con nosotros en nuestras redes o nuestra novedosa asistente virtual **Macy**!')
     col1, col2, col3 = st.columns(3)
 
     with col1:
