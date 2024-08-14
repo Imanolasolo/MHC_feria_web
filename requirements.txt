@@ -1,6 +1,5 @@
 streamlit
 streamlit_option_menu
-smtplib
 email.mime.text
 email.mime.multipart
 PyPDF2
