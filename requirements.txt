@@ -1,7 +1,5 @@
 streamlit
 streamlit_option_menu
-email.mime.text
-email.mime.multipart
 PyPDF2
 langchain.text_splitter
 langchain.embeddings
