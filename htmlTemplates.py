@@ -38,7 +38,7 @@ bot_template = '''
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFeJleFRZ7o594OSn3qoFDz1839G6TlVDM0V_m7ckdlx00sYZI_9865xjuDpBCNUqvVBI&usqp=CAU">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFeJleFRZ7o594OSn3qoFDz1839G6TlVDM0V_m7ckdlx00sYZI_9865xjuDpBCNUqvVBI&usqp=CAU" style="max-height: 78px; max-width: 78px; border-radius: 50%; object-fit: cover;">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
